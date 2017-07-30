@@ -1,0 +1,22 @@
+{
+    "box_type": "packeratorwindows10.windows10box.Windows10Box",
+    "machine_type": "packeratorwindows10.windows10machine.Windows10Machine",
+    "description": "Generic Windows 10 Packerator template",
+    "imports": [
+        "http::https://raw.githubusercontent.com/labmonkey42/packerator-windows/development/Windows.json"
+    ],
+    "builders":
+    {
+        "items":
+        [
+            {
+                "builder_id": "vmware",
+                "guest_os_type": "windows9-64"
+            },
+            {
+                "builder_id": "virtualbox",
+                "guest_os_type": "Windows10_64"
+            }
+        ]
+    }
+}
