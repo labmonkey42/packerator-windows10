@@ -3,7 +3,7 @@
     "machine_type": "packeratorwindows10.windows10machine.Windows10Machine",
     "description": "Generic Windows 10 Packerator template",
     "imports": [
-        "http::https://github.com/labmonkey42/packerator-windows/blob/development/Windows.json"
+        "http::https://raw.githubusercontent.com/labmonkey42/packerator-windows/development/Windows.json"
     ],
     "builders":
     {
