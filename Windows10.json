@@ -24,6 +24,10 @@
             },
             {
                 "builder_id": "virtualbox",
+                "boot_command":
+                [
+                    "<enter><enter><enter><enter><enter><enter><enter><enter><wait>"
+                ],
                 "guest_os_type": "Windows10_64"
             }
         ]
