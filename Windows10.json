@@ -17,7 +17,7 @@
                 "builder_id": "vmware",
                 "boot_command":
                 [
-                    "<esc><esc><esc><esc><esc><wait>"
+                    "<enter><enter><enter><enter><enter><enter><enter><enter><wait>"
                 ],
                 "guest_os_type": "windows9-64",
                 "version": "11"
