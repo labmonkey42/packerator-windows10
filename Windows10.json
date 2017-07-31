@@ -15,7 +15,8 @@
         [
             {
                 "builder_id": "vmware",
-                "guest_os_type": "windows9-64"
+                "guest_os_type": "windows9-64",
+                "version": 10
             },
             {
                 "builder_id": "virtualbox",
