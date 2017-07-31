@@ -9,26 +9,16 @@
     {
         "global_settings":
         {
-            "boot_wait": "5s",
             "vm_name": "Windows10Enterprise"
         },
         "items":
         [
             {
                 "builder_id": "vmware",
-                "boot_command":
-                [
-                    "<enter><wait>"
-                ],
-                "guest_os_type": "windows9-64",
-                "version": "11"
+                "guest_os_type": "windows9-64"
             },
             {
                 "builder_id": "virtualbox",
-                "boot_command":
-                [
-                    "<esc><esc><enter><wait>"
-                ],
                 "guest_os_type": "Windows10_64"
             }
         ]
