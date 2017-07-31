@@ -9,7 +9,7 @@
     {
         "global_settings":
         {
-            "vm_name": "Windows10Enterprise_{{.BuildName}}"
+            "vm_name": "Windows10Enterprise"
         },
         "items":
         [
