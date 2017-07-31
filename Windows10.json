@@ -15,6 +15,10 @@
         [
             {
                 "builder_id": "vmware",
+                "boot_command":
+                [
+                    "<enter><wait>"
+                ],
                 "guest_os_type": "windows9-64",
                 "version": "11"
             },
